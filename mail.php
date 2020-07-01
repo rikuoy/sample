@@ -76,7 +76,7 @@ $BccMail = "";
 $subject = "ホームページのお問い合わせ";
 
 // 送信確認画面の表示(する=1, しない=0)
-$confirmDsp = 1;
+$confirmDsp = 0;
 
 // 送信完了後に自動的に指定のページ(サンクスページなど)に移動する(する=1, しない=0)
 // CV率を解析したい場合などはサンクスページを別途用意し、URLをこの下の項目で指定してください。
@@ -84,7 +84,7 @@ $confirmDsp = 1;
 $jumpPage = 0;
 
 // 送信完了後に表示するページURL（上記で1を設定した場合のみ）※httpから始まるURLで指定ください。（相対パスでも基本的には問題ないです）
-$thanksPage = "http://xxx.xxxxxxxxx/thanks.html";
+$thanksPage = "index.html";
 
 // 必須入力項目を設定する(する=1, しない=0)
 $requireCheck = 0;
